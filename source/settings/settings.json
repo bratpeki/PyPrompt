@@ -1,0 +1,10 @@
+
+{
+	"commandSpliter": ";",
+
+	"defaultTimeFormat": "%d/%m/%Y %H:%M:%S (%a)",
+
+	"runCommandIfNotFound": true,
+	"runCommandIfNotFoundPrefix": ""
+}
+
