@@ -39,8 +39,8 @@ import source.pyprompt_common_func
 base = pyprompt_dir_file.path.dirname(pyprompt_dir_file.path.realpath(__file__))
 
 try:
-	settings = load(open(pyprompt_dir_file.path.join(base, "settings\\settings.json")))
-	alias = load(open(pyprompt_dir_file.path.join(base, "alias\\alias.json")))
+	settings = load(open(pyprompt_dir_file.path.join(base, "settings", "settings.json")))
+	alias = load(open(pyprompt_dir_file.path.join(base, "alias", "alias.json")))
 except Exception as e:
 	print("Exception:", e)
 	input("Press any key to continue...")
