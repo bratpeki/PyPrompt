@@ -27,11 +27,11 @@ def listDir(args):
 
 	Arguments:
 
-		-p	Path
-		-s	Search
-		-e	Specify that search terms must be explicit
-		-f	List files only
-		-d	List directories only
+		-p    Path
+		-s    Search
+		-e    Specify that search terms must be explicit
+		-f    List files only
+		-d    List directories only
 
 	Notes:
 
@@ -39,21 +39,21 @@ def listDir(args):
 
 	Table contents:
 
-		Name			The file's / directory's name
-		Created		 The file's / directory's date of creation
+		Name            The file's / directory's name
+		Created         The file's / directory's date of creation
 		Last Modified   The date when the file / directory was last modified
 		Last Accessed   The date when the file / directory was last accessed
-		Size			The file's / directory's size in bytes
-		Type			The file's / directory's type [File/Dir]
+		Size            The file's / directory's size in bytes
+		Type            The file's / directory's type [File/Dir]
 
 	Examples:
 
 		root> dir -p C:\\ -s Program -e
 		CWD: C:\\
-		Name				| Created			 | Last Modified	   | Last Accessed	   | Size  | Type
-		Program Files	   | 2020-01-31 04:30:17 | 2020-07-06 14:31:10 | 2020-07-06 14:31:10 | 20480 | Dir
+		Name                | Created             | Last Modified       | Last Accessed       | Size  | Type
+		Program Files       | 2020-01-31 04:30:17 | 2020-07-06 14:31:10 | 2020-07-06 14:31:10 | 20480 | Dir
 		Program Files (x86) | 2020-01-31 04:30:18 | 2020-07-06 14:53:06 | 2020-07-06 14:53:06 | 12288 | Dir
-		ProgramData		 | 2020-01-31 04:30:18 | 2020-05-30 20:13:23 | 2020-05-30 20:13:23 | 8192  | Dir
+		ProgramData         | 2020-01-31 04:30:18 | 2020-05-30 20:13:23 | 2020-05-30 20:13:23 | 8192  | Dir
 	"""
 
 	path_, search_ = [], []
